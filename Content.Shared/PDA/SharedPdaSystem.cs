@@ -67,8 +67,6 @@ namespace Content.Shared.PDA
         private void UpdatePdaAppearance(EntityUid uid, PdaComponent pda)
         {
             Appearance.SetData(uid, PdaVisuals.IdCardInserted, pda.ContainedId != null);
-            //goob addition for pen
-            Appearance.SetData(uid, PdaVisuals.PenInserted, pda.ContainedPen != null);
         }
 
         // update the status icon of the player that has the pda currently equipped

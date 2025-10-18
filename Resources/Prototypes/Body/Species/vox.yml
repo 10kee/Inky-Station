@@ -259,7 +259,7 @@
     damage:
       types:
         Slash: 5 # Reduce?
-  - type: Wagging
+#  - type: Wagging - trauma changes wag to be on the tail organ
 
 - type: entity
   parent: OrganBaseFleshy # Shitmed - Fleshy
