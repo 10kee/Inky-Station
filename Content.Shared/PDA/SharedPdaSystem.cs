@@ -46,6 +46,9 @@ namespace Content.Shared.PDA
         {
             if (args.Container.ID == PdaComponent.PdaIdSlotId)
                 pda.ContainedId = args.Entity;
+            //goob addition for pen
+            if (args.Container.ID == PdaComponent.PdaPenSlotId)
+                pda.ContainedPen = args.Entity;
 
             UpdatePdaAppearance(uid, pda);
             UpdateJobStatus(uid);
@@ -55,6 +58,9 @@ namespace Content.Shared.PDA
         {
             if (args.Container.ID == pda.IdSlot.ID)
                 pda.ContainedId = null;
+            //goob addition for pen
+            if (args.Container.ID == pda.PenSlot.ID)
+                pda.ContainedPen = null;
 
             UpdatePdaAppearance(uid, pda);
             UpdateJobStatus(uid);
@@ -69,6 +75,8 @@ namespace Content.Shared.PDA
         private void UpdatePdaAppearance(EntityUid uid, PdaComponent pda)
         {
             Appearance.SetData(uid, PdaVisuals.IdCardInserted, pda.ContainedId != null);
+            //goob addition for pen
+            Appearance.SetData(uid, PdaVisuals.PenInserted, pda.ContainedPen != null);
         }
 
         // update the status icon of the player that has the pda currently equipped
