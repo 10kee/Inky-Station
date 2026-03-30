@@ -11,7 +11,26 @@
     requirement:
       !type:DepartmentTimeRequirement
       department: Security
-      time: 60h
+      time: 60h # 60 hrs
+
+- type: loadoutEffectGroup
+  id: VeteranOfficer
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Security
+      time: 100h #why the fuck does this exist when secstarworthy is also 100h. son.
+
+#Security Star
+- type: loadoutEffectGroup
+  id: SecurityStarWorthy
+  effects:
+    - !type:JobRequirementLoadoutEffect
+      requirement:
+        !type:DepartmentTimeRequirement
+        department: Security
+        time: 100h
 
 # Head
 - type: loadout

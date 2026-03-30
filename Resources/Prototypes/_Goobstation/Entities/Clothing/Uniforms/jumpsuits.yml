@@ -448,3 +448,14 @@
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Centcom/golden_liaison.rsi
   - type: Clothing
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Centcom/golden_liaison.rsi
+#senior sec
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitVeteranSecurity
+  name: Airy Security Jumpsuit
+  description: An airy version of the standard security jumpsuit, normally given on shifts with a lacking atmos department
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/security_black.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/Security/security_black.rsi
