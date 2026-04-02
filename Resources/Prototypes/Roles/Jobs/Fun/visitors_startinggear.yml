@@ -67,6 +67,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitCMO
     shoes: ClothingShoesColorBrown
+    eyes: ClothingEyesGlassesMedChemFlash #omu
     gloves: ClothingHandsGlovesLatex
     head: ClothingHeadMirror
     neck: ClothingCloakCmo
@@ -82,6 +83,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitCMOTurtle
     shoes: ClothingShoesColorBrown
+    eyes: ClothingEyesGlassesMedChemFlash #omu
     gloves: ClothingHandsGlovesNitrile
     head: ClothingHeadHatBeretCmo
     neck: ClothingNeckMantleCMO
