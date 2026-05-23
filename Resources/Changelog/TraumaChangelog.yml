@@ -9003,3 +9003,10 @@ Entries:
   id: 1025
   time: '2026-05-23T05:36:15.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2750
+- author: rivermyth
+  changes:
+  - type: Add
+    message: extended functionality of the intellicard
+  id: 1026
+  time: '2026-05-23T05:53:58.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2755
