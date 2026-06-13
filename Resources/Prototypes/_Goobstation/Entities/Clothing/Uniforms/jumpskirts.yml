@@ -43,17 +43,6 @@
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/mailman.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
-  id: ClothingUniformJumpskirtReporter
-  name: reporter's dress
-  description: An extravagant black dress designed to catch the attention of as many people as possible.
-  components:
-  - type: Sprite
-    sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/reporter_dress.rsi
-  - type: Clothing
-    sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/reporter_dress.rsi
-
-- type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtCommandMaid
   name: command maid uniform
@@ -111,7 +100,6 @@
         color: "#620b73"
         sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/color/color.rsi
         
-
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtReporter

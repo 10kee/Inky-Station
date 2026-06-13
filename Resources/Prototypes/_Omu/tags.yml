@@ -1,7 +1,4 @@
 - type: Tag
-  id: AdvancedEnergyMagAmmo
-
-- type: Tag
   id: HudChemistry
 
 - type: Tag

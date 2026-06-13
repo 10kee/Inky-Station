@@ -14,6 +14,3 @@ fold-unzip-verb = Unzip
 
 fold-verb-clothing-jacket = Take off jacket
 unfold-verb-clothing-jacket = Put on jacket
-
-fold-verb-clothing-jacket = Take off jacket
-unfold-verb-clothing-jacket = Put on jacket

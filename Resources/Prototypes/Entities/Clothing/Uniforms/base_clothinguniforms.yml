@@ -114,16 +114,11 @@
     - ClothMade
     - WhitelistChameleon
 
-<<<<<<< HEAD
-- type: entity
-  abstract: true
-=======
 # Goobstation
 
 - type: entity
   abstract: true
   parent: BaseFoldable
->>>>>>> a4ef5ed6ca (Jumpsuit toggle and resprites (#6160))
   id: ClothingUniformFoldableBase
   components:
   - type: Foldable
