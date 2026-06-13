@@ -19,16 +19,12 @@ public sealed class PdaVisualizerSystem : VisualizerSystem<PdaVisualsComponent>
 
         if (AppearanceSystem.TryGetData<bool>(uid, PdaVisuals.IdCardInserted, out var isCardInserted, args.Component))
             SpriteSystem.LayerSetVisible((uid, args.Sprite), PdaVisualLayers.IdLight, isCardInserted);
-        //goob addition for pen visual
-        if (AppearanceSystem.TryGetData<bool>(uid, PdaVisuals.PenInserted, out var isPenInserted, args.Component))
-            _sprite.LayerSetVisible((uid, args.Sprite), PdaVisualLayers.Pen, isPenInserted);
     }
 
     public enum PdaVisualLayers : byte
     {
         Base,
         Flashlight,
-        IdLight,
-        Pen //goob addition for pen visual
+        IdLight
     }
 }
