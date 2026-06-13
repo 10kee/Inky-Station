@@ -41,7 +41,7 @@
     - map: [ "eyes" ]
     - map: [ "id" ]
     - map: [ "outerClothing" ]
-    - map: [ "belt" ] #goobchange that trauma reverted (belts over outerwear)
+    - map: [ "belt" ] #inky - belts over outerwear. was a goobchange that was skipped on trauma.
     - map: [ "back" ]
     - map: [ "neck" ]
     - map: [ "suitstorage" ]

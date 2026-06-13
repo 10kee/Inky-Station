@@ -1593,7 +1593,7 @@
   id: UplinkChameleon
   name: uplink-chameleon-name
   description: uplink-chameleon-desc
-  productEntity: ClothingBackpackChameleonFill
+  productEntity: ClothingBackpackChameleonFill # goob
   icon: { sprite: /Textures/_Goobstation/Clothing/Uniforms/Jumpsuit/color/rainbow.rsi, state: icon } # Goob
   cost:
     Telecrystal: 25 # Trauma - was 4, 5x and more expensive due to how much fucking value it has
