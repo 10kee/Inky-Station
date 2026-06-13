@@ -58,7 +58,7 @@
   equipment:
     id: CMOPDA
     ears: ClothingHeadsetAltMedical # Goobstation
-    eyes: ClothingEyesGlassesMedChemFlash # Goobstation
+    eyes: ClothingEyesGlassesMed # Goobstation
   storage:
     back:
     - Flash
@@ -70,7 +70,7 @@
   hasMindShield: true
   equipment:
     head: ClothingHeadHatBeretCmo
-    eyes: ClothingEyesGlassesMedChemFlash # Omu
+    eyes: ClothingEyesHudMedical
     mask: ClothingMaskSterile
     neck: ClothingCloakCmo
     outerClothing: ClothingOuterCoatLabCmo
