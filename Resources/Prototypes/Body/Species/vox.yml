@@ -364,17 +364,6 @@
   components:
   - type: Edible
     destroyOnEmpty: false
-  - type: SolutionContainerManager
-    solutions:
-      organ:
-        reagents:
-        - ReagentId: Silicon
-          Quantity: 10
-      food:
-        maxVol: 5
-        reagents:
-        - ReagentId: GreyMatter
-          Quantity: 5
   - type: BorgBrain
 
 - type: entity
