@@ -357,8 +357,25 @@
   id: OrganVoxFootRight
 
 - type: entity
-  parent: [ OrganBaseBrain, OrganSpriteHumanInternal, OrganVoxInternal ]
+  parent: [ OrganBaseBrain, OrganVoxInternal ]
   id: OrganVoxBrain
+  name: cortical stack
+  description: A stack containing all the memories and experiences of a vox with some mushy brains still sticking to it. Skreeeee!
+  components:
+  - type: Edible
+    destroyOnEmpty: false
+  - type: SolutionContainerManager
+    solutions:
+      organ:
+        reagents:
+        - ReagentId: Silicon
+          Quantity: 10
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: GreyMatter
+          Quantity: 5
+  - type: BorgBrain
 
 - type: entity
   parent: [ OrganVoxVisual, OrganBaseEyes, OrganVoxInternal ]
@@ -374,11 +391,11 @@
   id: OrganVoxTongue
 
 - type: entity
-  parent: [ OrganBaseAppendix, OrganSpriteHumanInternal, OrganVoxInternal ]
+  parent: [ OrganBaseAppendix, OrganVoxInternal ]
   id: OrganVoxAppendix
 
 - type: entity
-  parent: [ OrganBaseEars, OrganSpriteHumanInternal, OrganVoxInternal ]
+  parent: [ OrganBaseEars, OrganVoxInternal ]
   id: OrganVoxEars
 
 - type: entity
@@ -400,9 +417,10 @@
     isSpecialDigestibleExclusive: false
 
 - type: entity
-  parent: [ OrganBaseLiver, OrganSpriteHumanInternal, OrganVoxInternal, OrganVoxMetabolizer ]
+  parent: [ OrganBaseLiver, OrganVoxInternal, OrganVoxMetabolizer ]
   id: OrganVoxLiver
 
+
 - type: entity
-  parent: [ OrganBaseKidneys, OrganSpriteHumanInternal, OrganVoxInternal, OrganVoxMetabolizer ]
+  parent: [ OrganBaseKidneys, OrganVoxInternal, OrganVoxMetabolizer ]
   id: OrganVoxKidneys

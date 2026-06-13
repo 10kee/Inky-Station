@@ -39,9 +39,9 @@
     - map: [ "shoes" ]
     - map: [ "ears" ]
     - map: [ "eyes" ]
-    - map: [ "belt" ]
     - map: [ "id" ]
     - map: [ "outerClothing" ]
+    - map: [ "belt" ] #goobchange that trauma reverted (belts over outerwear)
     - map: [ "back" ]
     - map: [ "neck" ]
     - map: [ "suitstorage" ]
