@@ -46,6 +46,7 @@ namespace Content.Shared.PDA
         {
             if (args.Container.ID == PdaComponent.PdaIdSlotId)
                 pda.ContainedId = args.Entity;
+
             UpdatePdaAppearance(uid, pda);
             UpdateJobStatus(uid);
         }
@@ -54,6 +55,7 @@ namespace Content.Shared.PDA
         {
             if (args.Container.ID == pda.IdSlot.ID)
                 pda.ContainedId = null;
+
             UpdatePdaAppearance(uid, pda);
             UpdateJobStatus(uid);
         }
