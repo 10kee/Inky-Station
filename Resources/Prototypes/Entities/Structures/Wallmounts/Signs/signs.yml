@@ -122,8 +122,7 @@
   components:
     - type: Sprite
       snapCardinals: false
-#     <Trauma>
-      sprite: _Trauma/Structures/Wallmounts/signs.rsi
+      sprite: Structures/Wallmounts/signs.rsi #inky
     - type: PointLight
       radius: 1.4
       energy: 7
@@ -133,7 +132,6 @@
       soundGroups:
         Brute:
           collection: GlassSmash
-#     </Trauma>
 
 - type: entity
   parent: BaseSignDirectional
